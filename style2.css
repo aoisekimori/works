@@ -1,0 +1,499 @@
+@charset "utf-8";
+
+a {
+  text-decoration: none;
+}
+
+body {
+  line-height: 1.7;
+  font-size: 100%;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+}
+
+
+.answeritem {
+   display: flex;
+}
+
+.answeritem img {
+  width: 244px;
+  height: 244px;
+  object-fit: cover;
+  border: 2px solid #ebb94d;
+}
+
+.explain {
+  margin-left: 20px;
+  padding-top: 13px;
+  color: rgba(0, 0, 0, 0.4);
+  letter-spacing: 1.8;
+}
+
+.explain span {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.answeritems {
+  width: 55%;
+  margin: 0 auto;
+  padding: 40px 0 30px 0;
+}
+
+.answertitle {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.answeritem {
+  margin-bottom: 36px;
+}
+
+.class {
+  background-image: url("isaraimages/classbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.h2title {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.p {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.classheader {
+  color: #fff;
+  text-align: center;
+  padding-top: 45px;
+}
+
+.card-card {
+  display: flex;
+  justify-content: space-around;
+  width: 52%;
+  margin: 0 auto;
+  margin-top: 46px;
+}
+
+.card-header {
+  background-color: #016ea9;
+  color: #fff;
+  height: 52px;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid #016ea9;
+}
+
+.card p {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+
+.shorter {
+  height: 360px;
+  line-height: 1.0;
+}
+
+.classadd {
+  background-color: #016ea9;
+  color: #fff;
+  text-align: center;
+  padding: 35px 0;
+}
+
+.classadd p {
+  font-size: 20px;
+}
+
+.flow {
+  padding: 50px 0;
+}
+
+.flow h2  {
+  text-align: center;
+}
+
+
+
+.flowimage {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.flowwrapper {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.flowbox {
+  border-radius: 12px;
+  background-color: #fef5e0;
+  display: flex;
+  height: 227px;
+  margin: 0 auto;
+}
+
+.boxright {
+  margin-left: 40px;
+  width: 1050px;
+  padding: 30px; 0;
+}
+
+.boxright p {
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 2.4;
+}
+
+.boxright h6 {
+  font-weight: bold;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.boxleft {
+   text-align: center;
+   width: 210px;
+   margin-top: 30px;
+   margin-left: 60px;
+
+}
+
+.boxleft img {
+  margin-bottom: 20px;
+}
+
+.flowline {
+  text-align: center;
+}
+
+.a {
+  height: 60px;
+}
+
+.bangkok {
+  height: 496px;
+  background-image: url("isaraimages/bangkokbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px 0 0 80px;
+  color: #fff;
+}
+
+.bangkoklist {
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.bangkok h5 {
+  margin-top: 30px;
+}
+
+.q {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.specialpeople {
+    width: 47%;
+    text-align: center;
+    background-color: #f7c23c;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+    top: 18px;
+    left: px;
+}
+
+.specialpeople h2 {
+    font-size: 30px;
+}
+
+.specialtitle {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.special {
+  background-color: #f7c23c;
+  padding-bottom: 40px;
+}
+
+.specialbox {
+  border: 2.5px solid white;
+}
+
+.boxradius {
+  text-align: center;
+  background-color: white;
+  border-radius: 50%;
+  width: 260px;
+  height: 260px;
+  padding-top: 36px;
+}
+
+.boxradius h4 {
+  color: #f7c23c;
+}
+
+.boxradius p {
+  font-size: 14px;
+  padding-top: 24px;
+  margin: 0 auto;
+  width: 190px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.col-md-4 {
+  padding: 25px;
+}
+
+.p {
+  color: white;
+  font-weight: 100;
+  margin-top: 40px;
+}
+
+.p span {
+  color: black;
+  font-weight: 100;
+}
+
+.row {
+  padding: 20px 20px 20px 50px;
+}
+
+.specialdetail {
+  background-image: url("isaraimages/specialdetail.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 526px;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.detailtitle {
+  padding: 50px 0;
+}
+
+.detailtitle p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.value {
+  margin-top: 30px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.continue {
+  padding: 10px 0;
+  width: 65%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.continue::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-top: 4px solid white;
+  border-left: 4px solid white;
+}
+
+.continue::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+}
+
+.m-detail {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.m-detail p {
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+  font-size: 14px;
+  margin-left: 30px;
+  line-height: 1.9;
+  letter-spacing: 2;
+}
+
+.m-detail img {
+  width: 192px;
+  height: 144px;
+  object-fit: contain;
+}
+
+.d {
+  text-align: center;
+}
+
+.message {
+  padding: 70px 0 ;
+}
+
+.d h2 {
+  font-size: 26px;
+}
+
+.d h4 {
+  margin-top: 40px;
+}
+
+.contact {
+  background-color: #ebb94d;
+  text-align: center;
+  padding: 40px 0;
+}
+
+input::placeholder {
+  color:gray;
+  font-size: 1.2em;
+  font-style: italic;
+  margin:0 auto;
+  display:block;
+  width:600px;
+}
+
+input{
+  display:block;
+  width:60%;
+  height:50px;
+  margin: 20px auto;
+  border-radius: 5px;
+  border:none;
+}
+textarea{
+  width: 60%;
+  display:block;
+  margin: 30px auto;
+  border-radius: 5px;
+  border:none;
+  color:gray;
+  font-size:1.2em;
+}
+.soushin {
+  width: 500px;
+  height:44px;
+  border:1px solid #d86c67;
+  background-color: #d86c67;
+  border-radius: 25px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+  text-decoration: none;
+  font-size:20px;
+  padding-top:10px;
+  font-weight:1000;
+}
+
+.ks {
+  height: 30px;
+}
+
+.contact p {
+  margin-top: 30px;
+}
+
+.contact h2 {
+  font-size: 28px;
+}
+
+.contact {
+  padding: 50px 0;
+}
+
+.submit {
+  background-color: #da6b64;
+  color: white;
+  border-radius: 40px;
+}
+
+.faq h2{
+  text-align: center;
+}
+
+.faq {
+  padding: 70px 0;
+}
+
+.faqcontent {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.fq h5 {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.f-a p {
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.fq {
+  border: 0.5px solid rgba(0,0,0,0.3);
+  padding: 15px 15px 12px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fq a {
+  color: black;
+}
+.f-a {
+  padding: 10px 10px 10px 20px;
+  display: none;
+}
+
+.fq p {
+  font-size: 24px;
+  padding-top: 5px;
+  margin-bottom: -10px;
+}
+
+.imagebox {
+  height: 8px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  background-color:#ececec;
+}
+
+.copyright2 p {
+  font-size: 8px;
+}
+
+.copyright2 {
+
+}

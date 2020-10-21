@@ -1,0 +1,567 @@
+@charset "utf-8";
+
+a {
+  text-decoration: none;
+}
+
+body {
+  line-height: 1.7;
+  font-size: 100%;
+  font-family: "�q���M�m�p�S Pro W3", "Hiragino Kaku Gothic Pro", "���C���I", Meiryo, Osaka, "�l�r �o�S�V�b�N", "MS PGothic", sans-serif;
+}
+
+
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.title-logo {
+  width: 128px;
+  height: 44px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+}
+
+.header-1 {
+  display:flex;
+  justify-content: space-between;
+  height: 74px;
+  position: relative;
+}
+
+.title {
+  display:flex;
+  align-items: flex-end;
+}
+
+.title-logo-p {
+  margin-left: 6px;
+  font-weight:bold;
+  font-size:0.9rem;
+}
+
+.header-contact  {
+    font-weight: lighter;
+    font-size: 0.9rem;
+}
+
+.header-1 a {
+  color: #fff;
+  background-color: #da6b64;
+  border-radius: 25px;
+  height: 60%;
+  position: absolute;
+  right: 45px;
+  top: 14.6px;
+  padding: 7px 15px;
+  letter-spacing: 3px;
+}
+
+.header-2 {
+   height: 500px;
+   background-image: url("isaraimages/main.jpg");
+   background-repeat: no-repeat;
+   background-size:cover;
+   text-align: center;
+   padding-top: 84px;
+}
+
+.header-2 img {
+  width: 317px;
+  height: 111px;
+}
+
+.main {
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+.sub {
+  font-weight: 550;
+  font-size: 20px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+
+.header-3 {
+  background-color: #ebb94d;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 27px;
+}
+
+.p-1 {
+  line-height: 1.2;
+}
+
+.p-1 span {
+  background-color: #fff;
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.p-1 a {
+  color: #fff;
+  background-color: #da6b64;
+  border-radius: 50px;
+  height: 80px;
+  padding: 25px 15px 7px 15px;
+  letter-spacing: 3px;
+  display: inline-block;
+  margin-top: 60px;
+  width: 80%;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.header-3-contact {
+}
+
+.p-2 {
+  margin-top: 40px;
+  line-height: 2.1;
+}
+
+.sns-link a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.tweet {
+  background-color: #33ccff;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.good {
+  background-color: #0000ff;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.share {
+  background-color: #0000ff;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.intro-bottom {
+  background-image: url("isaraimages/introbottom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 587px;
+  text-align: center;
+  line-height: 1;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+.intro-bottom h3 {
+  display:inline-block;
+}
+
+.wrapper{
+  font-size: 100px;
+  color:  #ebb94d;
+  font-weight: lighter;
+}
+
+.text {
+  margin-top: 30px;
+}
+
+.earn {
+  border-bottom: 5px solid  #ebb94d;
+}
+
+.about {
+  background-color: #fef5e0;
+}
+
+.wrapper {
+  display:inline-block;
+  margin: 0 50px;
+}
+
+.bottom-title {
+  padding: 30px 0px 0px 0px;
+}
+
+.about-2 {
+  display: inline-block;
+  font-weight: 600;
+}
+
+.about {
+  position: relative;
+}
+
+.abouticon {
+  background-color: #fef5e0;
+  height: 60px;
+}
+
+.circle1 {
+  color: #ffffff;
+  background-color: #ebb94d;
+  display: inline-block;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  padding-top: 33px;
+  padding-left: 16px;
+  position: absolute;
+  top: -40px;
+  right: 50%;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.abouttitle {
+  text-align: center;
+}
+
+.yellow {
+  position: relative;
+  text-align: center;
+  width: 76%;
+  padding: 35px 0;
+  margin:0 auto;
+}
+
+.h2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  border-top: 4px solid #EBB94D;
+  border-left: 4px solid #EBB94D;
+}
+
+.h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  border-bottom: 4px solid #EBB94D;
+  border-right: 4px solid #EBB94D;
+}
+
+.crazy {
+  width:
+}
+
+.about {
+  padding-bottom: 50px;
+}
+
+.abouttitle p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.required-image {
+  display: flex;
+  justify-content: space-around;
+  width: 75%;
+  margin:0 auto;
+  margin-top: 40px;
+}
+
+.aboutbox {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-top: 20px;
+  border: 2px solid #EBB94D;
+  padding: 20px 0;
+}
+
+.imgbox p {
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: 9px;
+}
+
+.required-pro {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1.2;
+}
+
+.aboutsecond {
+  background-image: url("isaraimages/aboutsecondbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 441px;
+  padding-top: 45px;
+}
+
+.aboutsecond-title {
+  color: #ffffff;
+    text-align: center;
+}
+
+.aboutsecond-title span {
+  color: #EBB94D;
+}
+
+.aboutsecond-title p {
+  font-size: 25px;
+  line-height: 2.0;
+}
+
+.aboutsecond-boxes {
+  display: flex;
+  justify-content:space-around;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.aboutsecond-item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.step {
+  color: #fff;
+  background-color: #EBB94D;
+  width: 84%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.detail {
+    margin: 30px 60px;
+}
+
+.aboutthird {
+  background-color: #016ea9;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+  font-size: 22px;
+}
+
+.aboutthird span {
+  color: #EBB94D;
+}
+
+.aboutfour {
+  text-align: center;
+  padding: 40px 0;
+  line-height: 2.5;
+}
+
+.aboutfour p {
+  margin-top: 35px;
+  font-size: 22px;
+}
+
+.four-image img {
+  margin-left: 35px;
+}
+
+.aboutfour h2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.aboutfive {
+  background-color: #fef5e0;
+}
+
+.fivetitle {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+
+.fiveitem span {
+  display: block;
+  color: #EBB94D;
+  font-size: 23px;
+}
+
+.fiveitems {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fiveitem {
+  width: 360px;
+}
+
+.fiveitem img {
+  width: 360px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.fiveitem p {
+  letter-spacing: 2px;
+}
+
+.fivetitle p {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.fivetitle h2 {
+  font-weight: bold;
+  font-size: 27px;
+  margin-bottom: 40px;
+}
+
+.aboutfive {
+  padding-top: 60px;
+}
+
+.fivebox {
+  width: 87%;
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: center;
+  border: 2px solid  #EBB94D;
+  padding: 50px 0;
+}
+
+.fivebox h2 {
+  color:  #EBB94D;
+}
+
+.stress {
+  font-weight: bold;
+  font-size:21px;
+}
+
+.weak {
+  font-weight: bold;
+}
+
+.fiveattention {
+  text-align: center;
+  font-size: 14px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 40px 0;
+  letter-spacing: 2.5px;
+  font-weight: 100;
+}
+
+.members {
+  color: #fff;
+  background-image: url("isaraimages/teacherbg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1382px;
+  padding-top: 60px;
+}
+
+.memberstitle {
+  text-align: center;
+}
+
+.memberstitle p {
+  margin-top: 40px;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.membersitem img {
+  margin-bottom: -30px;
+}
+
+.memberdetail {
+  border: 2px solid #fff;
+  padding: 40px;
+  text-align: center;
+  height: 343px;
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+.membersitems {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+  padding: 37px 0;
+}
+
+.membersitem {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.members {
+  text-align: center;
+}
+
+.question {
+  background-color: #EBB94D;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+.triangle{
+  width:0;
+  border-top: 30px solid #eab857;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+  margin:0 auto;
+}
+
+.posibility::before {
+  content: '';
+  position: absolute;
+  width:50px;
+  height: 50px;
+  box-sizing: border-box;
+  margin:0 auto;
+  border-top:4px solid #ffffff ;
+  border-left:4px solid #ffffff ;
+  top:20px;
+  left:120px;;
+}
+
+.posibility::after {
+  content: '';
+  position: absolute;
+  width:50px;
+  height: 50px;
+  box-sizing: border-box;
+  margin:0 auto;
+  border-bottom: 4px solid #ffffff ;
+  border-right: 4px solid #ffffff ;
+  bottom: 20px;
+  right: 120px;;
+}
+
+.memberdetail p {
+}
